@@ -1,12 +1,13 @@
-
-import './App.css'
+import Relogio from "./components/Relogio/Relogio";
+import styles from "./App.module.css";
 
 function App() {
 
   return (
-    <>
-      <h1>Olá relogio</h1>
-    </>
+    <div className={styles.appContainer}>
+      <h1>Horário de Brasília</h1>
+      <Relogio/>
+    </div>
   )
 }
 
